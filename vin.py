@@ -43,7 +43,7 @@ def getCheckSumChar(vin):
             return -1;
 
     remain = checkSumTotal % 11
-    char = `remain`
+    char = str(remain)
     if remain == 10:
         char = 'X'
 
